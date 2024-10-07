@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cyberchef:
+    image: ghcr.io/gchq/cyberchef:latest
+    ports:
+      - "4747:80"
